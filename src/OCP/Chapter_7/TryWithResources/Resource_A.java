@@ -13,14 +13,14 @@ public class Resource_A implements AutoCloseable {
         this.name = name;
     }
 
-    //Without Exceptions
+    //Without OCA.Exceptions
     /*@Override
     public void close() {
         System.out.println("Resource - " + name + " is closed");
     }*/
 
 
-    //With Exceptions
+    //With OCA.Exceptions
     @Override
     public void close() throws Exception {
         System.out.println("Resource - " + name + " is closed");

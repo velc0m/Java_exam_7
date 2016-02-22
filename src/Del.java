@@ -1,7 +1,4 @@
-import Chapter_6.Exception.MyExceptionTop;
-
-import java.util.Calendar;
-import java.util.Date;
+import OCA.Chapter_6.Exception.MyExceptionTop;
 
 /**
  * Created by Litvv on 17.12.2015.
