@@ -7,7 +7,7 @@ public enum MEnum {
     TWO(2),
     THREE(3),
     FIVE(5),
-    SIX("HELLO");
+    SIX("HELLO", 8);
 
     private int size;
     private String str;
@@ -24,8 +24,9 @@ public enum MEnum {
         this.size = size;
     }
 
-    MEnum(String str) {
+    MEnum(String str, int i) {
         this.str = str;
+        this.size = i;
     }
 
 

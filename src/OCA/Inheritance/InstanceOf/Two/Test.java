@@ -9,12 +9,6 @@ public class Test {
 
         A a = new C2();
 
-
-
-
-
-
-
         System.out.println(a instanceof B2);
 
 

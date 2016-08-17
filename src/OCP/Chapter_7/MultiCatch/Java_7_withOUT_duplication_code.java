@@ -6,18 +6,16 @@ package OCP.Chapter_7.MultiCatch;
 public class Java_7_withOUT_duplication_code {
 
 
-    public static void main(String[] args) throws A, B, C {
+    public static void main(String[] args) {
+
         try {
             rain();
-        } catch (Exception e) {
-            e = new A();
-
+        } catch (Exception a) {
+            a.printStackTrace();
         }
     }
 
     private static void rain() throws A,B,C {
 
     }
-
-
 }

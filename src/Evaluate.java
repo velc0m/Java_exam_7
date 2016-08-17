@@ -1,5 +1,3 @@
-import sun.security.provider.SHA;
-
 /**
  * Created by MaxiM on 20.12.2015.
  */
@@ -23,7 +21,11 @@ public final class Evaluate{
         System.out.println(MEnum.THREE);
         System.out.println(one.getSize());
         System.out.println(MEnum.values());
+
+        System.out.println(MEnum.SIX);
         System.out.println(MEnum.SIX.getStr());
+        System.out.println(MEnum.SIX.getSize());
+        System.out.println(MEnum.FIVE.getSize());
 
 
     }

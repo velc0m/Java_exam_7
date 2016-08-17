@@ -43,7 +43,7 @@ public class PatternStartModified {
 
     }
 
-    private static void getMatcher(String init, String pat) {
+    static void getMatcher(String init, String pat) {
         Pattern p = Pattern.compile(pat);
         Matcher m = p.matcher(init);
 
