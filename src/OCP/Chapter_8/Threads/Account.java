@@ -5,5 +5,19 @@ package OCP.Chapter_8.Threads;
  */
 public class Account {
 
+    private int account;
 
+    public Account(int account) {
+        this.account = account;
+    }
+
+    public int getAccount() {
+        return account;
+    }
+
+    public void takeMoney(int money) {
+        if (account - money >= 0) {
+            account = account - money;
+        }
+    }
 }
