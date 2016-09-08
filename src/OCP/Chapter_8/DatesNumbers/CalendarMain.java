@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created by MaxiM on 21.02.2016.
  */
-public class CalendarClass {
+public class CalendarMain {
 
     public static void main(String[] args) {
 

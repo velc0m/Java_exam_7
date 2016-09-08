@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by MaxiM on 21.02.2016.
  */
-public class DateClass {
+public class DateMain {
 
     public static void main(String[] args) {
         Date date = new Date(1_000_000_000_000L);

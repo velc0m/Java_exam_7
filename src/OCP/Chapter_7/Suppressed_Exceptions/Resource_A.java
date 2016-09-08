@@ -11,6 +11,7 @@ public class Resource_A implements AutoCloseable {
 
     public Resource_A(String name) {
         this.name = name;
+        System.out.println("A is created");
     }
 
     @Override
