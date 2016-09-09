@@ -1,4 +1,5 @@
 import java.sql.SQLException;
+import java.util.Locale;
 
 /**
  * Created by Litvv on 29.08.2016.
@@ -7,8 +8,7 @@ public class EmptyClass {
 
     public static void main(String[] args) throws SQLException {
 
-        String str = "dfgF";
-        System.out.println(str.concat("234"));
-        System.out.println(str);
+        Locale locale = Locale.getDefault();
+        System.out.println(locale);
     }
 }
