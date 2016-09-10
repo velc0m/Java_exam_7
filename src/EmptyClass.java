@@ -8,7 +8,6 @@ public class EmptyClass {
 
     public static void main(String[] args) throws SQLException {
 
-        Locale locale = Locale.getDefault();
-        System.out.println(locale);
+        System.out.println((String) null);
     }
 }
