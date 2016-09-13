@@ -1,4 +1,4 @@
-package OCP.Chapter_9.nio.file;
+package OCP.Chapter_9.nio.path;
 
 import java.io.File;
 import java.io.IOException;

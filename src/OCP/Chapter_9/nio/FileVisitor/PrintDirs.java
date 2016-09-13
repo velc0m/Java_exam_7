@@ -1,4 +1,4 @@
-package OCP.Chapter_9.nio.file.FileVisitor;
+package OCP.Chapter_9.nio.FileVisitor;
 
 import java.io.IOException;
 import java.nio.file.*;
