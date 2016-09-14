@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Threads;
+package OCP.Chapter_13;
 
 /**
  * Created by Litvv on 24.08.2016.

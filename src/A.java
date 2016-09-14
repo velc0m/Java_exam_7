@@ -12,6 +12,10 @@ public class A {
         this.number = number;
     }
 
+    public A() {
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -30,5 +34,9 @@ public class A {
         int result = string != null ? string.hashCode() : 0;
         result = 31 * result + number;
         return result;
+    }
+
+    void m() {
+        System.out.println("Hello!");
     }
 }

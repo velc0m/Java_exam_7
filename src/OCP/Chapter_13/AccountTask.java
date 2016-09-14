@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Threads;
+package OCP.Chapter_13;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.locks.Lock;

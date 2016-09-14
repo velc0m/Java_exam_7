@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Threads.exOne13_1;
+package OCP.Chapter_13.exOne13_1;
 
 /**
  * Created by Litvv on 24.08.2016.
