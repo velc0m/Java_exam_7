@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Concurrency.Locks.shop;
+package OCP.Chapter_14.locks.shop;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

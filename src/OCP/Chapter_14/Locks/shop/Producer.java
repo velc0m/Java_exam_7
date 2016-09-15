@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Concurrency.Locks.shop;
+package OCP.Chapter_14.locks.shop;
 
 /**
  * Created by LitVV on 16.08.2016.

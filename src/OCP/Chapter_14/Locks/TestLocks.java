@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Concurrency.Locks;
+package OCP.Chapter_14.locks;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

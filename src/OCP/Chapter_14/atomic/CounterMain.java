@@ -1,4 +1,4 @@
-package OCP.Chapter_8.Concurrency.basic;
+package OCP.Chapter_14.atomic;
 
 /**
  * Created by LitVV on 16.08.2016.
