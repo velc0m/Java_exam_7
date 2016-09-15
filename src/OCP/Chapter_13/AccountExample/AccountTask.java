@@ -1,4 +1,4 @@
-package OCP.Chapter_13;
+package OCP.Chapter_13.AccountExample;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.locks.Lock;
@@ -20,7 +20,7 @@ public class AccountTask implements Runnable {
     @Override
     public void run() {
         int summ = ThreadLocalRandom.current().nextInt(10, 21);
-        while (account.getAccount() >= summ) {
+        while (account.getBalance() >= summ) {
             lock.lock();
             account.takeMoney(summ);
             System.out.println(Thread.currentThread().getName() + " took - " + summ);

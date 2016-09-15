@@ -1,4 +1,4 @@
-package OCP.Chapter_13;
+package OCP.Chapter_13.AccountExample;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
