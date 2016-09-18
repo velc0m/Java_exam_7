@@ -75,7 +75,7 @@ public class HashCodeClass {
 
         /*@Override
         public int hashCode() {
-            return 111;
+            return model.length();
         }*/
     }
 
