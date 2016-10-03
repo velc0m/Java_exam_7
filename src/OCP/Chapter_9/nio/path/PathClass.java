@@ -1,10 +1,7 @@
 package OCP.Chapter_9.nio.path;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 
 /**
  * Created by LitVV on 09.09.2016.
@@ -24,7 +21,7 @@ public class PathClass {
 
         Path file = Paths.get("My Directory/start", "test.txt");
 
-        //Converting
+       /* //Converting
         File file1 = new File("a_file.txt");
         Path path = Paths.get("b_file.txt");
 
@@ -43,20 +40,20 @@ public class PathClass {
             System.out.println("relative dir is " + Files.exists(p_dir_2));
             System.out.println("file is " + Files.exists(file));
 
-            /*Files.delete(file);
-            System.out.println("file is " + Files.exists(file));*/
+            *//*Files.delete(file);
+            System.out.println("file is " + Files.exists(file));*//*
 
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         //Delete, copy, remove
         try {
             Path file_for_copy = Paths.get("My Directory/start", "ttt.txt");
-            Files.copy(file, file_for_copy);
-            Files.delete(file_for_copy);
+            //Files.copy(file, file_for_copy);
+            //Files.delete(file_for_copy);
             Files.move(file, file_for_copy);
-            Files.delete(file_for_copy);
+            //Files.delete(file_for_copy);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -76,13 +73,13 @@ public class PathClass {
         System.out.println("String representation or the path - " + p_dir.toString());
 
         //Iteration through Path
-        System.out.println("-----I T E R A T I O N-----");
+        /*System.out.println("-----I T E R A T I O N-----");
         int space = 1;
         Path longPath = Paths.get("E:", "Cars", "BMW", "Series 7", "Owner", "Vitali.txt");
         for (Path path1 : longPath) {
             System.out.format("%" + space + "s%s%n", "", path1);
             space += 2;
-        }
+        }*/
 
         //Normalize the Path
         System.out.println("-----N O R M A L I Z E-----");
@@ -103,7 +100,5 @@ public class PathClass {
 
         Path relativize = longPath1.relativize(res);
         System.out.println("relativize - " + relativize);
-
-
     }
 }

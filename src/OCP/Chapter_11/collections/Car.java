@@ -36,4 +36,9 @@ public class Car implements Comparable<Car> {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public int hashCode() {
+        return model.length();
+    }
 }

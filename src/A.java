@@ -3,9 +3,11 @@
  */
 public class A {
 
-    String string;
+    String string = "A string";
 
     int number;
+
+    private String prStr;
 
     public A(String string, int number) {
         this.string = string;
@@ -36,7 +38,7 @@ public class A {
         return result;
     }
 
-    void m() {
-        System.out.println("Hello!");
+    void m(A a) {
+        System.out.println(string);
     }
 }

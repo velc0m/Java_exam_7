@@ -1,11 +1,11 @@
 /**
  * Created by MaxiM on 16.01.2016.
  */
-public class B implements Runnable {
+public class B extends A{
 
+    String string = "B string";
 
-    @Override
-    public void run() {
-        System.out.println("Hello from thread B");
+    void m() {
+        System.out.println(string);
     }
 }
